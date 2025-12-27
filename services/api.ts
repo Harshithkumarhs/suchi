@@ -2,10 +2,7 @@
 import { Product, CartItem, Order, User, OrderStatus } from '../types';
 import { MOCK_PRODUCTS } from '../constants';
 
-/**
- * Suchi API Bridge
- * A resilient connection layer that handles the transition from local to cloud.
- */
+
 
 const BASE_URL = 'http://localhost:5000/api';
 
@@ -48,10 +45,7 @@ class SuchiBackendBridge {
     this.eventListeners.forEach(l => l());
   }
 
-  /**
-   * Seed Cloud Data
-   * Pushes the current mock products to your MongoDB Atlas cluster.
-   */
+ 
   async seedCloudDatabase() {
     try {
       const response = await fetch(`${BASE_URL}/seed`, {
