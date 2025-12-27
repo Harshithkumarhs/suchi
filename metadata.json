@@ -1,8 +1,13 @@
 
 {
+<<<<<<< HEAD
   "name": "Suchi - Purely Organic Grocery",
   "description": "A high-performance organic vegetable delivery platform mimicking the Blinkit experience. Features smart product management, AI-driven recipe suggestions, and a seamless checkout flow.",
   "requestFramePermissions": [
     "geolocation"
   ]
+=======
+  "name": "Shuchi - Purely Organic",
+  "description": "A premium quick-commerce platform exclusively for certified organic vegetables, featuring AI-powered meal planning and farm-to-table transparency."
+>>>>>>> d9df6bdae344ebbca08512848b9b5efdee8d684c
 }
