@@ -2,10 +2,7 @@
 import mongoose, { Schema, Document } from 'mongoose';
 import { OrderStatus } from '../types';
 
-/**
- * Product Schema
- * Represents organic produce available in the Suchi catalog.
- */
+
 export interface IProduct extends Document {
   name: string;
   category: string;
@@ -32,10 +29,7 @@ const ProductSchema: Schema = new Schema({
   deliveryTime: { type: String, default: '15 mins' }
 }, { timestamps: true });
 
-/**
- * Order Schema
- * Stores customer purchases and real-time delivery status.
- */
+
 export interface IOrder extends Document {
   userId: string;
   userName: string;
