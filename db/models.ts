@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 import mongoose, { Schema, Document } from 'mongoose';
 import { OrderStatus } from '../types';
 
+=======
+
+import mongoose, { Schema, Document } from 'mongoose';
+import { OrderStatus } from '../types';
+
+
+>>>>>>> a3cf91270435a2c72635c2e81620606897ed6fe7
 export interface IProduct extends Document {
   name: string;
   category: string;
@@ -27,6 +35,10 @@ const ProductSchema: Schema = new Schema({
   deliveryTime: { type: String, default: '15 mins' }
 }, { timestamps: true });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a3cf91270435a2c72635c2e81620606897ed6fe7
 export interface IOrder extends Document {
   userId: string;
   userName: string;
@@ -68,4 +80,8 @@ const OrderSchema: Schema = new Schema({
 }, { timestamps: true });
 
 export const ProductModel = mongoose.models.Product || mongoose.model<IProduct>('Product', ProductSchema);
+<<<<<<< HEAD
 export const OrderModel = mongoose.models.Order || mongoose.model<IOrder>('Order', OrderSchema);
+=======
+export const OrderModel = mongoose.models.Order || mongoose.model<IOrder>('Order', OrderSchema);
+>>>>>>> a3cf91270435a2c72635c2e81620606897ed6fe7

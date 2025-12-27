@@ -1,5 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "suchi---purely-organic-grocery",
+=======
+<<<<<<< HEAD
+  "name": "suchi---purely-organic-grocery",
+=======
+  "name": "verdant---purely-organic",
+>>>>>>> d9df6bdae344ebbca08512848b9b5efdee8d684c
+>>>>>>> a3cf91270435a2c72635c2e81620606897ed6fe7
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,11 +18,22 @@
   },
   "dependencies": {
     "react-dom": "^19.2.3",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a3cf91270435a2c72635c2e81620606897ed6fe7
     "react": "^19.2.3",
     "@google/genai": "^1.34.0",
     "mongoose": "^9.0.2",
     "cors": "^2.8.5",
     "express": "^5.2.1"
+<<<<<<< HEAD
+=======
+=======
+    "@google/genai": "^1.34.0",
+    "react": "^19.2.3"
+>>>>>>> d9df6bdae344ebbca08512848b9b5efdee8d684c
+>>>>>>> a3cf91270435a2c72635c2e81620606897ed6fe7
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
