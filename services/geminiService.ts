@@ -3,11 +3,7 @@ import { GoogleGenAI } from "@google/genai";
 import { CartItem } from "../types";
 
 <<<<<<< HEAD
-/**
- * Suchi AI Core
- * Powered by Gemini to provide human-like recipe suggestions 
- * based on pure organic ingredients.
- */
+
 
 export const getRecipeSuggestions = async (items: CartItem[]) => {
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
